@@ -1,0 +1,11 @@
+<div class="centerdiv container">
+  <div class="btn-group" *ngFor="let book of books">
+      <button class="btn btn-outline-success">{{ book.title }}</button>
+  </div>
+</div>
+<br>
+<div class="centerdiv container">
+  <div class="btn-group" *ngFor="let chapter of chapters">
+    <button class="btn btn-outline-success">{{ chapter.chapter_ids }}</button>
+  </div>
+</div>
